@@ -1,0 +1,16 @@
+{
+  "name": "easy-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/easy-http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@marcosflorencio",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "browser-sync": "^2.18.5",
+    "gulp-minify": "0.0.14"
+  }
+}
