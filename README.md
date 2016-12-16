@@ -48,7 +48,7 @@ Simple http requests using ES5 and XMLHttpRequest
         email: 'email@gmail.com'
       },
       headers: {
-        'auth': '91c2d169-3698-4241-8db1-c16d98e2deb6',
+       'Content-Type': 'application/json;charset=UTF-8'
       }
     })
     .then(function(response) {
