@@ -2,7 +2,7 @@
 Simple http requests using ES5 and XMLHttpRequest
 
 
-## Usage
+## usage examples
 ```js
 
  http({
@@ -10,7 +10,7 @@ Simple http requests using ES5 and XMLHttpRequest
       url: 'https://dragons-api.herokuapp.com/api/dragons'
     })
     .then(function(response) {
-      console.log('get response', response)
+      console.log('response', response)
     })
     .catch(function(err) {
       console.log('err', err)
@@ -25,6 +25,41 @@ Simple http requests using ES5 and XMLHttpRequest
       data: {
         name: 'Olar',
         email: 'email@gmail.com'
+      }
+    })
+    .then(function(response) {
+      console.log('response', response)
+    })
+    .catch(function(err) {
+      console.log('err', err)
+    })
+
+```
+```js
+
+ http({
+      method: 'PUT',
+      url: 'https://app.com/api/user',
+      data: {
+        name: 'Olar',
+        email: 'email@hotmail.com'
+      }
+    })
+    .then(function(response) {
+      console.log('response', response)
+    })
+    .catch(function(err) {
+      console.log('err', err)
+    })
+
+```
+```js
+
+ http({
+      method: 'DELETE',
+      url: 'https://app.com/api/user',
+      data: {
+        id: '09e81b2d-3e9e-4427-b579-c6b27f13a5f0'
       }
     })
     .then(function(response) {
