@@ -63,7 +63,7 @@ Simple http requests using ES5 and XMLHttpRequest
       }
     })
     .then(function(response) {
-      console.log('post response', response)
+      console.log('response', response)
     })
     .catch(function(err) {
       console.log('err', err)
@@ -87,7 +87,7 @@ Simple http requests using ES5 and XMLHttpRequest
       }
     })
     .then(function(response) {
-      console.log('post response', response)
+      console.log('response', response)
     })
     .catch(function(err) {
       console.log('err', err)
